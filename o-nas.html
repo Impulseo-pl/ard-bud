@@ -19,95 +19,116 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=98230df2">
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261016">
 </head>
 <body>
 
 <header class="nav">
-  <div class="wrap nav-inner">
+  <div class="nav-inner">
     <a class="brand" href="index.html"><span class="name">Ard-Bud</span><span class="sub">Chorzów</span></a>
-    <nav class="nav-links">
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <a class="nav-tel" href="tel:+48533928949"><span class="tel-txt">+48 533 928 949</span> <span class="arr">→</span></a>
+    <nav class="nav-links" aria-label="Menu główne">
+      <a href="index.html">Start</a>
       <a href="oferta.html">Oferta</a>
       <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html" class="active" aria-current="page">O nas</a>
+      <a href="o-nas.html">O nas</a>
       <a href="kontakt.html">Kontakt</a>
-      <a href="tel:+48533928949" class="btn btn-accent">Zadzwoń +48 533 928 949</a>
+      <a class="kw-menu-tel" href="tel:+48533928949">+48 533 928 949</a>
     </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
 <main>
-<section class="pagehead">
-  <img src="img/g11.jpg" alt="Ard-Bud - Poznaj naszą ekipę" width="1600" height="1066" decoding="async">
+<section class="pagehead kw-hero">
+  <div class="kw-hero-art"><img src="img/g11.jpg" alt="Dom po remoncie elewacji" width="1600" height="1066" fetchpriority="high" decoding="async"></div>
   <div class="wrap">
-    <span class="eyebrow">O nas</span>
-    <h1>Poznaj naszą ekipę</h1>
-    <p>Nie zbierasz kilku ekip do jednej budowy - całość prowadzimy i za całość odpowiadamy. Wiesz, co i kiedy dzieje się na Twojej budowie.</p>
+    <div class="kw-hero-copy">
+      <span class="eyebrow">O nas</span>
+      <h1>Poznaj naszą ekipę</h1>
+      <p>Nie zbierasz kilku ekip do jednej budowy - całość prowadzimy i za całość odpowiadamy.</p>
+      <a class="btn" href="kontakt.html">Zapytaj o wycenę <span class="arr">→</span></a>
+    </div>
   </div>
 </section>
+
 <section>
-  <div class="wrap split">
-    <div class="split-art reveal"><img src="img/g12.jpg" alt="Ard-Bud" loading="lazy" width="1600" height="1065" decoding="async"></div>
-    <div class="split-copy reveal">
-      <span class="eyebrow">Jak pracujemy</span>
-      <h2>O nas</h2>
-      <p class="muted">Najwięcej nerwów na budowie robi cisza: ekipa nie odbiera, terminy płyną, nikt nic nie wie.</p>
-      <p class="muted">U nas jest prosta zasada - zaczętą robotę kończymy, a o każdym przesunięciu dowiadujesz się od nas, tego samego dnia.</p>
+  <div class="wrap">
+    <div class="kw-sec-head reveal"><span class="eyebrow">Jak pracujemy</span><h2>Wiesz, na czym stoisz - na każdym etapie</h2></div>
+    <div class="kw-promise kw-steps">
+      <div class="reveal"><span class="eyebrow">01</span><h3>Rozmowa i oględziny</h3><p>Telefon i krótka rozmowa o zakresie. Na oględziny przyjedziemy z miarką i notesem, nie z gotową umową do podpisu.</p></div>
+      <div class="reveal"><span class="eyebrow">02</span><h3>Kosztorys i umowa</h3><p>Cena i harmonogram idą do umowy, z datą startu i datą odbioru. Bez podpisanej umowy nie ruszamy.</p></div>
+      <div class="reveal"><span class="eyebrow">03</span><h3>Budowa etapami</h3><p>Każdy etap zamykamy razem, zanim zaczniemy następny. Płacisz za to, co już stoi.</p></div>
+      <div class="reveal"><span class="eyebrow">04</span><h3>Odbiór i gwarancja</h3><p>Przechodzimy wszystko razem, punkt po punkcie. Usterki z przeglądu poprawiamy przed rozliczeniem końcowym, nie po nim.</p></div>
     </div>
   </div>
 </section>
 
-
-<section class="cta">
+<section class="kw-dark kw-rows">
   <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Masz robotę do zrobienia? Zapytaj o wycenę</h2>
-      <p>Bez zobowiązań - opowiedz, co trzeba zrobić, a my podpowiemy jak i wycenimy.</p>
+    <div class="kw-row reveal">
+      <div class="kw-ph"><img src="img/g14.jpg" alt="Prace wykończeniowe" width="1600" height="1066" decoding="async"></div>
+      <div><span class="num">Jak pracujemy</span><h2>Zaczęte prace kończymy</h2>
+        <p>Najwięcej nerwów na budowie robi cisza: ekipa nie odbiera, terminy płyną, nikt nic nie wie.</p>
+        <p>U nas jest prosta zasada - zaczętą robotę kończymy, a o każdym przesunięciu dowiadujesz się od nas, tego samego dnia.</p></div>
     </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48533928949" class="btn btn-ghost btn-ghost-cta">+48 533 928 949</a>
+  </div>
+</section>
+
+<section class="kw-dark kw-rows">
+  <div class="wrap">
+    <div class="kw-sec-head reveal"><span class="eyebrow">Opinie w Google · ocena 5,0</span><h2>Co mówią klienci</h2></div>
+    <div class="kw-promise kw-opinie">
+      <figure class="reveal"><blockquote>„Wszystkie prace związane z remontem łazienki i ubikacji zostały wykonane bardzo starannie i z wielką dbałością o szczegóły.”</blockquote><figcaption>Grzegorz Orzechowski</figcaption></figure>
+      <figure class="reveal"><blockquote>„Jesteśmy mega zadowoleni z remontu łazienki. Panowie byli bardzo kontaktowi, zrobili wszystko wg projektu, wyrobili się w terminie a wszystko to za uczciwą cenę.”</blockquote><figcaption>Ultimate freedom</figcaption></figure>
+      <figure class="reveal"><blockquote>„Fachowcy godni zarówno polecenia jak i zaufania. Remont przeprowadzony bardzo rzetelnie, panowie w wielu kwestiach służyli dobrą radą.”</blockquote><figcaption>Gosia</figcaption></figure>
     </div>
+  </div>
+</section>
+
+<section class="cta kw-call kw-dark">
+  <div class="wrap reveal">
+    <span class="eyebrow">Zacznijmy współpracę</span>
+    <a class="kw-phone" href="tel:+48533928949">+48 533 928 949</a>
+    <p class="lead">Masz coś do zrobienia? Opowiedz, co trzeba zrobić, a my podpowiemy jak i wycenimy.</p>
+    <a class="btn" href="tel:+48533928949">Zadzwoń teraz <span class="arr">→</span></a>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="name">Ard-Bud</div>
-        <p>Nie zbierasz kilku ekip do jednej budowy - całość prowadzimy i za całość odpowiadamy. Wiesz, co i kiedy dzieje się na Twojej budowie.</p>
-      </div>
-      <div class="foot-col">
-        <h4>Nawigacja</h4>
+    <div class="kw-foot-top">
+      <div class="kw-foot-list">
+        <a href="tel:+48533928949">+48 533 928 949</a>
+        <span>Plac Mickiewicza 7, 41-500 Chorzów</span>
+        <span>Pon. 8-16, wt.-pt. 8-17, sob. 8-13</span>
+        <span>Obszar działania: Chorzów i okolice</span>
         <a href="oferta.html">Oferta</a>
         <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
+        <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
       </div>
-      <div class="foot-col">
-        <h4>Kontakt</h4>
-        <a href="tel:+48533928949">+48 533 928 949</a>
-        <p>Plac Mickiewicza 7, 41-500 Chorzów</p>
-        <a href="https://maps.google.com/?cid=15776349872217320784" target="_blank" rel="noopener">Jak dojechać →</a>
-      <div class="foot-soc">
-        <a class="soc" href="https://maps.google.com/?cid=15776349872217320784" target="_blank" rel="noopener" aria-label="Google - Ard-Bud"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="currentColor"/></svg></a>
-      </div>
+      <div class="kw-foot-soc">
+        <a href="https://maps.google.com/?cid=15776349872217320784" target="_blank" rel="noopener">Google <span class="arr">→</span><small>Opinie klientów</small></a>
+        <a href="https://maps.google.com/?cid=15776349872217320784" target="_blank" rel="noopener">Mapa <span class="arr">→</span><small>Jak dojechać</small></a>
       </div>
     </div>
-    <div class="foot-bot">
-      <span>© 2026 Ard-Bud</span>
-      <span>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
+    <div class="kw-foot-mid">
+      <div class="name">Ard-Bud</div>
+      <a class="kw-foot-cta" href="kontakt.html"><span class="big">Zapytaj o bezpłatną wycenę</span><span class="arr">→</span></a>
+    </div>
+    <div class="kw-foot-bot">
+      <span>Plac Mickiewicza 7, 41-500 Chorzów</span>
+      <span>© 2026 Ard-Bud<br>Projekt strony: <a class="foot-credit" href="https://impulseo.pl" target="_blank" rel="noopener">Impulseo</a></span>
     </div>
   </div>
 </footer>
-<div class="sticky-call"><a class="sc-call" href="tel:+48533928949"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zadzwoń: +48 533 928 949</a></div>
+<div class="sticky-call"><a class="sc-call" href="tel:+48533928949"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg> Zadzwoń</a><a class="sc-quote" href="kontakt.html">Zapytaj o wycenę</a></div>
 <div class="demo-wazne" data-do="2026-10-22" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261016"></script>
+<script src="assets/kw.js?v=20261016"></script>
 </body>
 </html>
